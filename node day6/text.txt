@@ -12,9 +12,41 @@ git =>  github => gilab  分布式代码管理工具
 查看文件状态：git status
 添加所有文件到暂存区：git add .
 添加单个文件：git add
-
 用户名:git config --global user.name +'用户名' 登录git
 邮箱：git config --global user.email +'邮箱'
 提交文件并注释：git commit -m +'内容'
 仓库地址链接远程仓库：git remote add origin +仓库地址   eg:git remote add origin https://github.com/zhr-ooo/zhanghairong.git
-提交内容到master分支：git push -u origin master
+提交内容到master分支：git push -u origin master （首次提交） 
+后续提交 git push
+
+如何实现多人之间下载修改文件
+先在git软件里面给别人权限
+先在本地建立一个新的文件夹
+在这个新的文件夹里面打开git
+先git init
+然后git clone +对方的权限地址
+然后 cd ＋新建的文件夹名称
+git add . 把文件添加进去
+提交文件并注释：git commit -m +'内容'
+仓库地址链接远程仓库：git remote add origin +对方的仓库地址 
+后续提交 git push
+
+
+
+：wq保存并退出
+
+
+
+
+git pull  拉取（多人合作项目的时候 先拉取 ）
+git clone 仓库地址  克隆项目
+
+分支 branch
+git branch  查看本地分支
+git branch  +分支名称 创建分支
+git checkout +分支名称  切换分支
+git branch -r查看远端分支 （远端即指服务端）
+git checkout -b+分支名称 创建并切换到分支
+git branch  -d +分支名称  删除分支  （能不能在当前分支删除，必须在主分支上删除）
+git merge +分支名称  合并分支
+git push --set-upstream origin+分支名称 推送本地分支到远端
