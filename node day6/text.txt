@@ -1,0 +1,20 @@
+ svn 也是代码管理工具 它是集成式的代码管理工具 
+集成式分为两区：工作区（本地） 服务区（线上）
+git =>  github => gilab  分布式代码管理工具  
+分布式分为三区： 工作区 暂存区  服务区
+（官方上叫做）版本控制系统
+
+命令：
+到文件目录下：cd ： ＋文件名称
+一个项目只能包含一个.get
+分支：branch
+初始化：git init
+查看文件状态：git status
+添加所有文件到暂存区：git add .
+添加单个文件：git add
+
+用户名:git config --global user.name  登录git
+邮箱：git config --global user.email
+提交文件并注释：get commit -m
+仓库地址链接远程仓库：get remote add origin 
+提交内容到master分支：get push -u origin master

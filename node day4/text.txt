@@ -1,0 +1,35 @@
+art-template ：简洁而高效的模板引擎
+语法：
+1，标准语法{{}}
+2，原始语法（和ejs语法相像）
+{{}}差值表达式
+
+js原生
+events   事件
+process  进程
+crypto  加密
+
+框架
+express
+定义：基于nodejs平台快速 开放 极简的web开发框架
+特点：
+中间件
+特点 1.支持链式调用
+使用：下载   npm install express --save
+postman接口测试工具
+get请求中query和params区别？
+1，路由的限制性 params的限制性要比query的限制性高
+2，query的适用范围广
+
+预习：
+静态资源中间件 express.static
+模板引擎  ejs express-art-template
+cookie-parser
+express-session
+
+
+
+koa
+
+
+egg
